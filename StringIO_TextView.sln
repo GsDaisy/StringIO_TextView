@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringIO_TextView", "StringIO_TextView\StringIO_TextView.csproj", "{8A4E9CBC-0912-4905-9DAB-9B29F595ADB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A4E9CBC-0912-4905-9DAB-9B29F595ADB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4E9CBC-0912-4905-9DAB-9B29F595ADB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4E9CBC-0912-4905-9DAB-9B29F595ADB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4E9CBC-0912-4905-9DAB-9B29F595ADB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A62DFFC-FF1B-4360-A5B1-9581E4E0BB7A}
+	EndGlobalSection
+EndGlobal
