@@ -27,7 +27,39 @@ namespace StringIO_TextView
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.lblResult.Text = this.OrgStr + this.textBox1.Text;
+            if (TextCheck())
+            {
+                this.lblResult.Text = this.OrgStr + this.textBox1.Text;
+
+            }
+        }
+
+        private bool TextCheck()
+        {
+            if(this.textBox1.Text != "")
+            {
+                return true;
+            }
+            else
+            {
+                MessageBox.Show("텍스트를 입력하세요!", "알림", MessageBoxButtons.OK,
+                    MessageBoxIcon.Error);
+                this.textBox1.Focus();
+                return false;
+            }
+        }
+
+        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(e.KeyChar == (char)13)  //엔터 키를 누를 때
+            {
+                e.Handled = true;
+                if (TextCheck() == true)
+                {
+                    this.lblResult.Text = this.OrgStr + this.textBox1.Text;
+                }
+            }
+
         }
     }
 }
